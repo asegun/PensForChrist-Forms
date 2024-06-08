@@ -107,7 +107,7 @@
     .navigation .nav-btns .get {
       background: #1b5eac;
       color: #ffffff;
-      height: 50px;
+      height: 50px; 
       padding: 0 30px;
       border-radius: 5px;
       outline: none;
@@ -129,6 +129,11 @@
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   color: #1c2437; }
+
+  .ugf-form .input-block h3 {
+   
+    font-family: "Roboto", sans-serif;
+    color: #1c2437; }
   .ugf-form .input-block h4 + div {
     margin-top: 40px; }
 
@@ -875,3 +880,8 @@ span.error#checkbox-error{
       -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
       flex: 0 0 100%; } }
+
+textarea {
+  resize: none;
+  height: 150px !important;
+}

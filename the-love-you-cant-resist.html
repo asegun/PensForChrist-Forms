@@ -29,7 +29,7 @@
 
 
   </head>
-  <body>
+  <body style="background-color: #f5f7fa;">
 
     <div class="ugf-nav">
       <div class="container">
@@ -63,17 +63,17 @@
                     <div class="col-md-6 p-sm-0 ">
                       <div class="form-group">
                         <label for="inputFname">First Name</label>
-                        <input type="text" name="fName" class="form-control" id="inputFname" placeholder="e.g. Robert" required>
+                        <input type="text" name="fName" class="form-control" id="inputFname" placeholder="Enter your first name" required>
                       </div>
                     </div>
                     <div class="col-md-6 p-sm-0">
                       <div class="form-group">
                         <label for="inputLname">Last Name</label>
-                        <input type="text" name="lName" class="form-control" id="inputLname" placeholder="e.g. Smith" required>
+                        <input type="text" name="lName" class="form-control" id="inputLname" placeholder="Enter your last name" required>
                       </div>
                     </div>
 
-                    <div class="col-md-6 p-sm-0">
+                    <div class="col-md-12 p-sm-0">
                         <div class="form-group">
                           <label for="inputLname">Email</label>
                           <input type="email" name="email" class="form-control" id="inputLname" placeholder="Enter your email" required>
@@ -86,316 +86,70 @@
                           <input type="number" name="phone" class="form-control" id="inputLname" placeholder="Enter your phone number" required>
                         </div>
                       </div>
-                    <div class="col-md-6 p-sm-0">
-                      <div class="form-group country-select">
-                        <label for="inputCountry">Country of Nationality</label>
-                        <div class="select-input choose-country">
-                          <span></span>  
-                            <select id="inputCountry" name="Nationality" class="form-control" required >
-                              <option value="Country">Country</option>
-                              <option value="USA">USA</option>
-                              <option value="Russia">Russia</option>
-                              <option value="China">China</option>
-                              <option value="England">England</option>
-                              <option value="France">France</option>
-                              <option value="Germany">Germany</option>
-                              <option value="Spain">Spain</option>
-                              <option value="Netherland">Netherland</option>
-                              <option value="Singapur">Singapur</option>
-                            </select>
+
+                      <div class="col-md-6 p-sm-0">
+                        <div class="form-group">
+                            <label for="">Do you think God Loves You?</label>
+                            <div class="check-gender">
+                              <div class="custom-radio">
+                                <input type="radio" name="godslove" class="custom-control-input" id="godsLoveYes" required>
+                                <label class="custom-control-label" for="godsLoveYes">Yes</label>
+                              </div>
+                              <div class="custom-radio">
+                                <input type="radio" name="godslove" class="custom-control-input" id="godsLoveNo" required>
+                                <label class="custom-control-label" for="godsLoveNo">No</label>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-12 p-sm-0">
+                        <div class="form-group">
+                          <label for="why">Why or why not?</label>
+                          <textarea  name="why" class="form-control " id="why" placeholder="State your reason(s)"  required></textarea>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-sm-0">
-                      <div class="form-group">
-                        <label for="inputDate">Date of Birth</label>
-                        <div class="birth-date">
-                          <div class="select-input birth-date-input">
-                            <span></span>
-                            <select id="inputDate" name="dob" class="form-control" required>
-                              <option value="date">Date</option>
-                              <option value="1">01</option>
-                              <option value="2">02</option>
-                              <option value="3">03</option>
-                              <option value="4">04</option>
-                              <option value="5">05</option>
-                              <option value="6">06</option>
-                              <option value="7">07</option>
-                              <option value="8">08</option>
-                              <option value="9">09</option>
-                              <option value="10">10</option>
-                              <option value="11">11</option>
-                              <option value="12">12</option>
-                              <option value="13">13</option>
-                              <option value="14">14</option>
-                              <option value="15">15</option>
-                              <option value="16">16</option>
-                              <option value="17">17</option>
-                              <option value="18">18</option>
-                              <option value="19">19</option>
-                              <option value="20">20</option>
-                              <option value="21">21</option>
-                              <option value="22">22</option>
-                              <option value="23">23</option>
-                              <option value="24">24</option>
-                              <option value="25">25</option>
-                              <option value="26">26</option>
-                              <option value="27">27</option>
-                              <option value="28">28</option>
-                              <option value="29">29</option>
-                              <option value="30">30</option>
-                              <option value="31">31</option>
-                            </select>
-                          </div>
-                          <div class="select-input birth-date-input">
-                            <span></span>
-                            <select id="inputDate" name="dob" class="form-control" required>
-                              <option value="">Month</option>
-                              <option value="1">01</option>
-                              <option value="2">02</option>
-                              <option value="3">03</option>
-                              <option value="4">04</option>
-                              <option value="5">05</option>
-                              <option value="6">06</option>
-                              <option value="7">07</option>
-                              <option value="8">08</option>
-                              <option value="9">09</option>
-                              <option value="10">10</option>
-                              <option value="11">11</option>
-                              <option value="12">12</option>
-                            </select>
-                          </div>
-                          <div class="select-input birth-date-input">
-                            <span></span>
-                            <select id="inputDate" name="dob" class="form-control" required>
-                            <option value="Year">Year</option>
-                            <option value="1990">1990</option>
-                            <option value="1991">1991</option>
-                            <option value="1992">1992</option>
-                            <option value="1993">1993</option>
-                            <option value="1994">1994</option>
-                            <option value="1995">1995</option>
-                            <option value="1996">1996</option>
-                            <option value="1997">1997</option>
-                            <option value="1998">1998</option>
-                            <option value="1999">1999</option>
-                            <option value="2001">2001</option>
-                            <option value="2002">2002</option>
-                            <option value="2003">2003</option>
-                            <option value="2004">2004</option>
-                            <option value="2005">2005</option>
-                            <option value="2006">2006</option>
-                            <option value="2007">2007</option>
-                            <option value="2008">2008</option>
-                            <option value="2009">2009</option>
-                            <option value="2010">2010</option>
-                          </select>
-                          </div>
+
+                      <div class="col-md-12 p-sm-0">
+                        <div class="form-group">
+                          <label for="notLove">Are there people God does not love?</label>
+                          <textarea  name="notLove" class="form-control " id="notLove" placeholder="state your answer here.." required></textarea>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-sm-0">
-                      <div class="form-group country-select">
-                        <label for="inputCountry">Country of Residence</label>
-                        <div class="select-input choose-country">
-                          <span></span>
-                            <select id="inputCountry" name="country" class="form-control" required>
-                              <option value="Country">Country</option>
-                              <option value="USA">USA</option>
-                              <option value="Russia">Russia</option>
-                              <option value="China">China</option>
-                              <option value="England">England</option>
-                              <option value="France">France</option>
-                              <option value="Germany">Germany</option>
-                              <option value="Spain">Spain</option>
-                              <option value="Netherland">Netherland</option>
-                              <option value="Singapur">Singapur</option>
-                            </select>
+
+                      <div class="col-md-12 p-sm-0">
+                        <div class="form-group">
+                          <label for="howToKnow">How can you know if God loves you?</label>
+                          <textarea  name="howToKnow" class="form-control " id="howToKnow" placeholder="state your answer here.." required></textarea>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-sm-0">
-                      <div class="form-group">
-                        <label for="state">State/Province</label>
-                        <input type="text" class="form-control" name="state" id="state" placeholder="e.g. Smith" required>
+
+                      <div class="col-md-12 p-sm-0">
+                        <div class="form-group">
+                          <label for="toGodsLove">What is your response to God's love?</label>
+                          <textarea  name="toGodsLove" class="form-control " id="toGodsLove" placeholder="state your answer here.." required></textarea>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-sm-0">
-                      <div class="form-group">
-                        <label for="address1">Address Line 1</label>
-                        <input type="text" class="form-control" name="address" id="address1" placeholder="e.g. 2707 Par Drive" required>
+
+                       <div class="col-md-12 p-sm-0">
+                        <div class="form-group">
+                          <label for="howToKnow">What else did you learn from this write up?</label>
+                          <textarea  name="howToKnow" class="form-control " id="howToKnow" placeholder="state herw other things you learn from this write up.." required></textarea>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-sm-0">
-                      <div class="form-group">
-                        <label for="address2">Address Line 2</label>
-                        <input type="text" class="form-control" id="address2" placeholder="e.g. Los Angeles, CA 90013">
+
+                      <div class="col-md-12 p-sm-0">
+                        <div class="form-group">
+                          <label for="prayerRequest">Comments, Questions or Prayer Request</label>
+                          <textarea  name="prayerRequest" class="form-control " id="prayerRequest" placeholder="enter any comments, questions or prayer request here.." required></textarea>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-sm-0">
-                      <div class="form-group">
-                        <label for="city">City</label>
-                        <input type="text" class="form-control" name="city" id="city" placeholder="e.g. New York" required>
-                      </div>
-                    </div>
-                    <div class="col-md-6 p-sm-0">
-                      <div class="form-group">
-                        <label for="zip">Post Code</label>
-                        <input type="text" class="form-control" name="postcode" id="zip" placeholder="e.g. 0000" required>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="">Gender</label>
-                    <div class="check-gender">
-                      <div class="custom-radio">
-                        <input type="radio" name="gender" class="custom-control-input" id="Gmale" required>
-                        <label class="custom-control-label" for="Gmale">Male</label>
-                      </div>
-                      <div class="custom-radio">
-                        <input type="radio" name="gender" class="custom-control-input" id="Gfemale" required>
-                        <label class="custom-control-label" for="Gfemale">Female</label>
-                      </div>
-                    </div>
-                  </div>
+                    </div> 
                 </div>
-                <div class="input-block">
-                  <h4>Personal Documents</h4>
-                  <p>Upload any of the following personal document.</p>
-                  <div class="documents-upload-wrap">
-                    <div class="label">Select Document type</div>
-                    <ul class="nav nav-tabs nav-pills" id="pills-tab" role="tablist">
-                      <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="passport-tab" data-bs-toggle="pill" href="#passport" role="tab" aria-controls="passport" aria-selected="true"><img src="assets/images/passport.png" alt="">passport</a>
-                      </li>
-                      <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="nid-tab" data-bs-toggle="pill" href="#nid" role="tab" aria-controls="nid" aria-selected="false"><img src="assets/images/nid.png" alt="">National id</a>
-                      </li>
-                      <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="driver-tab" data-bs-toggle="pill" href="#driver" role="tab" aria-controls="driver" aria-selected="false"><img src="assets/images/driving.png" alt="">Driver’s License</a>
-                      </li>
-                    </ul>
-                    <div class="tab-content" id="pills-tabContent">
-                      <div class="tab-pane fade show active" id="passport" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="documents-upload">
-                          <div class="upload-item">
-                            <input type="file" id="input1" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input1" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div id="p-input1" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">Passport Cover</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                          <div class="upload-item">
-                            <input type="file" id="input2" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input2" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div  id="p-input2" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">Passport Data Page</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                          <div class="upload-item">
-                            <input type="file" id="input3" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input3" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div  id="p-input3" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">Selfie With Passport</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                        </div>
-                        <div class="conditions">
-                          <ul>
-                            <li class="complete">File accepted: JPEG/JPG/PNG (Max size: 250 KB)</li>
-                            <li>Document should be good condition</li>
-                            <li>Document must be  valid period</li>
-                            <li>Face must be clear visible</li>
-                            <li>Note has today’s date</li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="nid" role="tabpanel" aria-labelledby="nid-tab">
-                        <div class="documents-upload">
-                          <div class="upload-item">
-                            <input type="file" id="input4" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input4" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div id="p-input4" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">National ID Front</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                          <div class="upload-item">
-                            <input type="file" id="input5" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input5" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div id="p-input5" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">National ID Back</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                          <div class="upload-item">
-                            <input type="file" id="input6" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input6" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div id="p-input6" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">Selfie With National ID</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                        </div>
-                        <div class="conditions">
-                          <ul>
-                            <li class="complete">File accepted: JPEG/JPG/PNG (Max size: 250 KB)</li>
-                            <li>Document should be good condition</li>
-                            <li>Document must be  valid period</li>
-                            <li>Face must be clear visible</li>
-                            <li>Note has today’s date</li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="tab-pane fade" id="driver" role="tabpanel" aria-labelledby="driver-tab">
-                        <div class="documents-upload">
-                          <div class="upload-item">
-                            <input type="file" id="input7" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input7" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div id="p-input7" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">License Front</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                          <div class="upload-item">
-                            <input type="file" id="input8" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input8" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div id="p-input8" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">License Back</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                          <div class="upload-item">
-                            <input type="file" id="input9" class="input-file" accept="image/*" required hidden />
-                            <label class="btn-upload" for="input9" role="button">
-                              <img src="assets/images/cloud.png">
-                              <div id="p-input9" class="preview-box"></div>
-                            </label>
-                            <div class="upload-direction"><span class="text">Selfie With License</span><a href="#"><img src="assets/images/download.png" alt=""></a></div>
-                          </div>
-                        </div>
-                        <div class="conditions">
-                          <ul>
-                            <li class="complete">File accepted: JPEG/JPG/PNG (Max size: 250 KB)</li>
-                            <li>Document should be good condition</li>
-                            <li>Document must be  valid period</li>
-                            <li>Face must be clear visible</li>
-                            <li>Note has today’s date</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>  
-                  <div class="form-group">
-                    <div class="custom-checkbox">
-                      <input type="checkbox" name="checkBox" class="custom-control-input" id="customControlValidation1" required>
-                      <label class="custom-control-label" for="customControlValidation1">I accept the <a href="#">Terms &amp; Conditions</a> and <a href="#">Privacy policy</a></label>
-                    </div>
-                  </div>
-                </div>
+
+
+
+                 
                 <button class="btn">Submit Documents</button>
               </form>
             </div>

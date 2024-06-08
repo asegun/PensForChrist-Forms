@@ -210,6 +210,7 @@ a:focus {
 
 textarea {
   resize: none;
+  height: 150px;
 }
 
 input::-webkit-input-placeholder,
