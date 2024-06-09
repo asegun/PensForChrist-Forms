@@ -885,3 +885,6 @@ textarea {
   resize: none;
   height: 150px !important;
 }
+body{
+  background-color: #f5f7fa;;
+}
